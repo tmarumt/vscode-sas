@@ -18,7 +18,7 @@
         "description": "if then do"
     },
     "else if": {
-        "prefix": "else if",
+        "prefix": "else_if",
         "body": [
             "else if $1 then do;",
             "\t$2",
@@ -27,7 +27,7 @@
         "description": "else if then do"
     },
     "else do": {
-        "prefix": "else do",
+        "prefix": "else_do",
         "body": [
             "else do;",
             "\t$2",
@@ -36,7 +36,7 @@
         "description": "else do"
     },
     "do loop": {
-        "prefix": "do loop",
+        "prefix": "do_loop",
         "body": [
             "do $1;",
             "\t$2",
@@ -63,7 +63,7 @@
         "description": "%if %then %do"
     },
     "%else %if": {
-        "prefix": "%else %if",
+        "prefix": "%else_%if",
         "body": [
             "%else %if $1 %then %do;",
             "\t$2",
@@ -72,7 +72,7 @@
         "description": "%else %if %then %do"
     },
     "%else %do": {
-        "prefix": "%else %do",
+        "prefix": "%else_%do",
         "body": [
             "%else %do;",
             "\t$2",
@@ -81,7 +81,7 @@
         "description": "%else %do"
     },
     "%do %loop": {
-        "prefix": "%do %loop",
+        "prefix": "%do_%loop",
         "body": [
             "%do $1;",
             "\t$2",

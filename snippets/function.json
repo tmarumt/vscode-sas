@@ -406,7 +406,7 @@
         "description": "intnx-function"
     },
     "call is8601_convert": {
-        "prefix": "call is8601_convert",
+        "prefix": "call_is8601_convert",
         "body": [
             "call is8601_convert(${1})"
         ],
@@ -525,7 +525,7 @@
         "description": "minute-function"
     },
     "call missing": {
-        "prefix": "call missing",
+        "prefix": "call_missing",
         "body": [
             "call missing(${1})"
         ],
@@ -581,7 +581,7 @@
         "description": "propcase-function"
     },
     "call prxchange": {
-        "prefix": "call prxchange",
+        "prefix": "call_prxchange",
         "body": [
             "call prxchange(${1})"
         ],
@@ -595,14 +595,14 @@
         "description": "prxchange-function"
     },
     "call prxdebug": {
-        "prefix": "call prxdebug",
+        "prefix": "call_prxdebug",
         "body": [
             "call prxdebug(${1})"
         ],
         "description": "call prxdebug-function"
     },
     "call prxfree": {
-        "prefix": "call prxfree",
+        "prefix": "call_prxfree",
         "body": [
             "call prxfree(${1})"
         ],
@@ -616,7 +616,7 @@
         "description": "prxmatch-function"
     },
     "call prxnext": {
-        "prefix": "call prxnext",
+        "prefix": "call_prxnext",
         "body": [
             "call prxnext(${1})"
         ],
@@ -637,7 +637,7 @@
         "description": "prxparse-function"
     },
     "call prxposn": {
-        "prefix": "call prxposn",
+        "prefix": "call_prxposn",
         "body": [
             "call prxposn(${1})"
         ],
@@ -651,7 +651,7 @@
         "description": "prxposn-function"
     },
     "call prxsubstr": {
-        "prefix": "call prxsubstr",
+        "prefix": "call_prxsubstr",
         "body": [
             "call prxsubstr(${1})"
         ],
@@ -735,7 +735,7 @@
         "description": "saving-function"
     },
     "call scan": {
-        "prefix": "call scan",
+        "prefix": "call_scan",
         "body": [
             "call scan(${1})"
         ],
@@ -749,14 +749,14 @@
         "description": "scan-function"
     },
     "call sortc": {
-        "prefix": "call sortc",
+        "prefix": "call_sortc",
         "body": [
             "call sortc(${1})"
         ],
         "description": "call sortc-function"
     },
     "call sortn": {
-        "prefix": "call sortn",
+        "prefix": "call_sortn",
         "body": [
             "call sortn(${1})"
         ],
@@ -847,14 +847,14 @@
         "description": "symlocal-function"
     },
     "call symput": {
-        "prefix": "call symput",
+        "prefix": "call_symput",
         "body": [
             "call symput(${1})"
         ],
         "description": "call symput-function"
     },
     "call symputx": {
-        "prefix": "call symputx",
+        "prefix": "call_symputx",
         "body": [
             "call symputx(${1})"
         ],
@@ -1134,7 +1134,7 @@
         "description": "vlengthx-function"
     },
     "call vname": {
-        "prefix": "call vname",
+        "prefix": "call_vname",
         "body": [
             "call vname(${1})"
         ],
@@ -1155,7 +1155,7 @@
         "description": "vnamex-function"
     },
     "call vnext": {
-        "prefix": "call vnext",
+        "prefix": "call_vnext",
         "body": [
             "call vnext(${1})"
         ],
