@@ -1,0 +1,37 @@
+{
+    "name": "vscode-sas",
+    "displayName": "SAS",
+    "description": "SAS extension for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "tmarumt",
+    "engines": {
+        "vscode": "^1.27.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Snippets"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "sas",
+            "aliases": ["SAS", "sas"],
+            "extensions": [".sas"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "sas",
+            "scopeName": "source.sas",
+            "path": "./syntaxes/sas.tmLanguage.json"
+        }],
+        "snippets": [
+            {
+                "language": "sas",
+                "path": "./snippets/sas.json"
+            },
+            {
+                "language": "sas",
+                "path": "./snippets/function.json"
+            }
+        ]
+    }
+}
