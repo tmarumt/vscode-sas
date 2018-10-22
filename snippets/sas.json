@@ -13,7 +13,7 @@
         "body": [
             "if $1 then do;",
             "\t$2",
-            "end;\n$0"
+            "end;$0"
         ],
         "description": "if then do"
     },
@@ -22,7 +22,7 @@
         "body": [
             "else if $1 then do;",
             "\t$2",
-            "end;\n$0"
+            "end;$0"
         ],
         "description": "else if then do"
     },
@@ -31,7 +31,7 @@
         "body": [
             "else do;",
             "\t$2",
-            "end;\n$0"
+            "end;$0"
         ],
         "description": "else do"
     },
@@ -40,7 +40,7 @@
         "body": [
             "do $1;",
             "\t$2",
-            "end;\n$0"
+            "end;$0"
         ],
         "description": "do loop"
     },
@@ -49,7 +49,7 @@
         "body": [
             "%macro $1($2);",
             "\t$3",
-            "%mend $1;\n$0"
+            "%mend;$0"
         ],
         "description": "macro"
     },
@@ -58,7 +58,7 @@
         "body": [
             "%if $1 %then %do;",
             "\t$2",
-            "%end;\n$0"
+            "%end;$0"
         ],
         "description": "%if %then %do"
     },
@@ -67,7 +67,7 @@
         "body": [
             "%else %if $1 %then %do;",
             "\t$2",
-            "%end;\n$0"
+            "%end;$0"
         ],
         "description": "%else %if %then %do"
     },
@@ -76,7 +76,7 @@
         "body": [
             "%else %do;",
             "\t$2",
-            "%end;\n$0"
+            "%end;$0"
         ],
         "description": "%else %do"
     },
@@ -85,7 +85,7 @@
         "body": [
             "%do $1;",
             "\t$2",
-            "%end;\n$0"
+            "%end;$0"
         ],
         "description": "%do %loop"
     }
