@@ -48,8 +48,8 @@
         "prefix": "macro",
         "body": [
             "%macro $1($2);",
-            "\t$3",
-            "%mend;$0"
+            "\t$0",
+            "%mend;"
         ],
         "description": "macro"
     },
